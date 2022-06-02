@@ -71,9 +71,6 @@ section .grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   margin-top: 20px;
-  /* grid-auto-rows: minmax(100px, auto); */
-  /* justify-items: stretch;
-  align-items: stretch; */
 }
 
 
@@ -109,13 +106,6 @@ section .grid {
 }
 
 
-
-/* .box1{
-  display: grid;
-  grid-template-columns: 4fr 2fr;
-  grid-auto-rows: 70px;
-  grid-gap: 1em;
-} */
 
 .box1 > div {
   border: #452 1px solid;
